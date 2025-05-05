@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",                      
+    "module": "ESNext",                      
+    "moduleResolution": "node",              
+    "lib": ["ESNext", "DOM"],                // adiciona tipagens de runtime ES e APIs do navegador
+    "strict": true,                          
+    "esModuleInterop": true,                 
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,                    
+    "resolveJsonModule": true,               
+    "isolatedModules": true,                 
+    "jsx": "preserve",                       
+    "types": ["vite/client"]                 // injeta as declarações de `import.meta.env`
+  },
+  "include": ["src", "src/env.d.ts"]
+}
