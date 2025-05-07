@@ -1,4 +1,4 @@
-**Read in**: [English](README.md) | [Português](README.pt.md)
+**Read in**: [English](README.md) | [Portuguese](README.pt.md)
 
 # OpticalProject
 # 🚀 How to Run the Project
