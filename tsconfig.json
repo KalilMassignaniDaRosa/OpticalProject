@@ -1,9 +1,10 @@
 {
+  // Configuracao typescript
   "compilerOptions": {
     "target": "ESNext",                      
     "module": "ESNext",                      
     "moduleResolution": "node",              
-    "lib": ["ESNext", "DOM"],                // adiciona tipagens de runtime ES e APIs do navegador
+    "lib": ["ESNext", "DOM"],              
     "strict": true,                          
     "esModuleInterop": true,                 
     "forceConsistentCasingInFileNames": true,
@@ -11,7 +12,7 @@
     "resolveJsonModule": true,               
     "isolatedModules": true,                 
     "jsx": "preserve",                       
-    "types": ["vite/client"]                 // injeta as declarações de `import.meta.env`
+    "types": ["vite/client"]                
   },
   "include": ["src", "src/env.d.ts"]
 }

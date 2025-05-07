@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Snap Lens – Optical Project</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+</head>
+<body>
+  <button id="back-button" class="lens-btn" onclick="history.back()">←</button>
+  <main>
+    <h1>Snap Lens</h1>
+    <canvas id="my-Canvas"></canvas>
+    <div class="controls">
+      <button id="start-lens" class="lens-btn">Turn On Camera</button>
+      <div class="lens-nav">
+        <button id="prev-lens">←</button>
+        <span id="lens-index">0 / 0</span>
+        <button id="next-lens">→</button>
+      </div>
+    </div>
+  </main>
+  <script type="module" src="./snapLens.ts"></script>
+</body>
+</html>

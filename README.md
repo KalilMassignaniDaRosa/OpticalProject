@@ -1,40 +1,37 @@
+**Read in**: [English](README.md) | [Português](README.pt.md)
+
 # OpticalProject
-# 🚀 Como Executar o Projeto
+# 🚀 How to Run the Project
 
-## Pré-requisitos
-- Node.js 18.x ou superior
+## Prerequisites
+- Node.js 18.x or higher
 - NPM 9.x
-- Acesso à câmera do dispositivo
+- Access to device's camera
 
-## Passo a Passo
+## Step by Step
 
-1. **Clone o repositório**
+1. **Clone the repository**
    ```bash
    git clone https://github.com/KalilMassignaniDaRosa/OpticalProject.git
    ```
 
-2. **Instale as dependências**
+2. **Install dependencies**
    ```bash
    npm install
    ```
 
 3. **Configure as variáveis de ambiente**  
-   Crie um arquivo `.env` na raiz do projeto com:
+   Create a .env file at project root with:
    ```ini
-   VITE_CAMERAKIT_API_TOKEN=seu_token_aqui
-   VITE_CAMERAKIT_LENS_GROUP_ID=seu_group_id
-   VITE_CAMERAKIT_LENS_ID=seu_lens_id
+   VITE_CAMERAKIT_API_TOKEN=your_token_here
+   VITE_CAMERAKIT_LENS_GROUP_ID=your_group_id
+   VITE_CAMERAKIT_LENS_ID=your_lens_id
    ```
 
-4. **Inicie o servidor de desenvolvimento**
+4. **Start development server**
    ```bash
    npm run dev
    ```
 
-5. **Acesse a aplicação**  
-   Abra no navegador:  
-   [http://localhost:5173](http://localhost:5173)
-
-
-## 🔒 Importante
-- Nunca commit o arquivo `.env` com credenciais reais
+## 🔒 Important
+- Never commit the `.env` file
